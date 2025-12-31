@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/alpblkba/CLionProjects/promon/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/promon.dir/main.cpp.o -c /Users/alpblkba/CLionProjects/promon/main.cpp",
+  "file": "/Users/alpblkba/CLionProjects/promon/main.cpp",
+  "output": "CMakeFiles/promon.dir/main.cpp.o"
+}
+]
