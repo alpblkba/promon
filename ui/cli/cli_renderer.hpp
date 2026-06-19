@@ -6,7 +6,7 @@ namespace promon::ui::cli {
 
 class CliRenderer final : public Renderer {
 public:
-    void render(const Snapshot& snapshot) override;
+    void render(const RenderDocument& document, const RenderOptions& options) override;
 };
 
 } // namespace promon::ui::cli

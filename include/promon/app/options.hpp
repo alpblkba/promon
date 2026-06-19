@@ -33,6 +33,10 @@ struct Options {
     OutputFormat output_format = OutputFormat::Human;
 
     bool once = true;
+    bool verbose = false;
+    bool raw_values = false;
+    bool color = true;
+    bool clear_screen = true;
     int watch_interval_seconds = 0;
 
     std::vector<Section> sections = {

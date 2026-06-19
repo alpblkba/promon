@@ -14,6 +14,7 @@ add_executable(promon
 
     src/core/snapshot.cpp
     src/core/format.cpp
+    src/core/rate.cpp
 
     src/app/options.cpp
     src/app/application.cpp
@@ -23,6 +24,9 @@ add_executable(promon
     src/diagnostics/io_pressure.cpp
 
     ui/cli/cli_renderer.cpp
+
+    src/ui/value_format.cpp
+    src/ui/snapshot_presenter.cpp
 )
 
 target_include_directories(promon PRIVATE
@@ -35,6 +39,7 @@ if(APPLE)
         src/platform/macos/mach_memory.cpp
         src/platform/macos/process.cpp
         src/platform/macos/thread.cpp
+        src/platform/macos/vmstat.cpp
 
         src/platform/macos/mach/host_memory.cpp
         src/platform/macos/mach/cpu_load.cpp

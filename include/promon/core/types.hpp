@@ -27,6 +27,22 @@ struct VmStat {
     std::uint64_t pswpout = 0;
 };
 
+struct VmStatRate {
+    double pgfault_per_sec = 0.0;
+    double pgmajfault_per_sec = 0.0;
+
+    double pgscan_kswapd_per_sec = 0.0;
+    double pgscan_direct_per_sec = 0.0;
+    double pgscan_per_sec = 0.0;
+
+    double pgsteal_kswapd_per_sec = 0.0;
+    double pgsteal_direct_per_sec = 0.0;
+    double pgsteal_per_sec = 0.0;
+
+    double pswpin_per_sec = 0.0;
+    double pswpout_per_sec = 0.0;
+};
+
 struct CpuStat {
     std::uint64_t user = 0;
     std::uint64_t nice = 0;

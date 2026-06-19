@@ -81,6 +81,26 @@ Options parse_options(int argc, char** argv) {
             continue;
         }
 
+        if (arg == "--verbose" || arg == "-v") {
+            options.verbose = true;
+            continue;
+        }
+
+        if (arg == "--raw") {
+            options.raw_values = true;
+            continue;
+        }
+
+        if (arg == "--no-color") {
+            options.color = false;
+            continue;
+        }
+
+        if (arg == "--no-clear") {
+            options.clear_screen = false;
+            continue;
+        }
+
         if (arg == "--section" && i + 1 < argc) {
             options.sections.clear();
             options.sections.push_back(parse_section(argv[++i]));
