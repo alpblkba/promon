@@ -1,0 +1,34 @@
+# build outputs
+build/
+cmake-build-*/
+out/
+dist/
+
+# cmake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+*.ninja
+.ninja_*
+
+# object/binary files
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# editor/os
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# my own notes
+skeleton.txt

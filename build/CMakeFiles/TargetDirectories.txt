@@ -1,3 +1,0 @@
-/Users/alpblkba/CLionProjects/promon/build/CMakeFiles/promon.dir
-/Users/alpblkba/CLionProjects/promon/build/CMakeFiles/edit_cache.dir
-/Users/alpblkba/CLionProjects/promon/build/CMakeFiles/rebuild_cache.dir
